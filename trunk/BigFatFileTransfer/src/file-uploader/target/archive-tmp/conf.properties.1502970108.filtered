@@ -1,0 +1,7 @@
+server.port=9999
+
+#file.dir=
+
+server.host=localhost
+
+chunk.size=500000000

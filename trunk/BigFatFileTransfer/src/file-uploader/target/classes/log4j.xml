@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+
+	<appender name="infoApp" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="Threshold" value="info" />
+		<param name="File" value="../logs/all.log" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="(%d) %-6p [%t] %c{1} - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="consoleApp" class="org.apache.log4j.ConsoleAppender">
+		<!--<param name="Threshold" value="info" />-->
+		<param name="target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%5p %d{dd/mm/yy hh:mm:ss} [%t] (%C{1}:%L) - %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="org.vikulin">
+		<level value="ERROR" />
+		<appender-ref ref="consoleApp" />
+		<appender-ref ref="infoApp" />
+	</logger>
+	<logger name="org.jdamico">
+		<level value="ERROR" />
+		<appender-ref ref="consoleApp" />
+		<appender-ref ref="infoApp" />
+	</logger>
+
+</log4j:configuration>

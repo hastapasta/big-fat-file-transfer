@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filemap>
+<sourcefile name="Redhat_Linux.vmdk" md5="f6e15afc59b619ab7fb869c2fd066033" offset="500000000"/>
+<pfiles>
+<pfile name="Redhat_Linux.vmdk.part_0" md5="6089633f58656856d11644213776d5b1" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_1" md5="e754728ac68ee1258180bcb7c4068477" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_2" md5="132b6af99fa3bad1eb5faffb7dc0b107" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_3" md5="5c417d571aa0491697236120b9724bb2" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_4" md5="fd913407d60775308deecab428e33918" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_5" md5="5b4e60f4e7e23520b83497e4f4def863" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_6" md5="5519bb02a847154c559de19ebcd621cc" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_7" md5="b3507a8c111064cf302c51966b67eaf8" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_8" md5="c3597ae3eb0fe766eb0735ff3d3e8272" uploaded="false"/>
+<pfile name="Redhat_Linux.vmdk.part_9" md5="2ed0d494b670da4585ddb7eb6163377f" uploaded="false"/>
+</pfiles>
+</filemap>

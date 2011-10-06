@@ -1,0 +1,1 @@
+java -cp ../lib/file-uploader-1.0-SNAPSHOT.jar org.jdamico.jhu.runtime.UploadManager
